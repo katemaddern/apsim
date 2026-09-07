@@ -3,10 +3,10 @@ From: ubuntu:focal
 
 %labels
 Maintainer james.bristow@plantandfood.co.nz
-Version 2026.03.8006.0
+Version 2026.09.8109.0
 
 %setup
-  curl --silent -o ${SINGULARITY_ROOTFS}/ApsimSetup.deb https://builds.apsim.info/api/nextgen/download/8006/Linux
+  curl --silent -o ${SINGULARITY_ROOTFS}/ApsimSetup.deb https://builds.apsim.info/api/nextgen/download/8109/Linux
   curl --silent -o ${SINGULARITY_ROOTFS}/packages-microsoft-prod.deb https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb
 %post
   export DEBIAN_FRONTEND=noninteractive
